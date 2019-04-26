@@ -7,7 +7,7 @@ class CustomerSerializer(serializers.ModelSerializer):
         model = Customer
         fields = ('id', 'firstName', 'lastName', 'address', 'age')
 
-class CustomerMiniSerializer(serializers.ModelSerializer):
-    class Meta:
-        model: Customer
-        fields = ('id', 'firstName')
+# class CustomerMiniSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model: Customer
+#         fields = ('id', 'firstName')
